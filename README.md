@@ -49,7 +49,7 @@ root@test_sshd $
 
 ## Security
 
-If you are making the container accessible from the internet you'll probably want to secure it bit.
+If you are making the container accessible from the internet you'll probably want to secure it a bit.
 You can do one of the following two things after launching the container:
 
 - Change the root password: `docker exec -ti test_sshd passwd`
